@@ -21,6 +21,7 @@
   color: var(--color-green-dark);
   font-weight: normal;
   margin: 0;
+  text-transform: capitalize;
 }
 
 .CropsCard p {
