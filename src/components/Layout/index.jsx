@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
         <div className="MainArea">
           <main>{children}</main>
           <div className="SideArea">
-            <SideBar/>
+            <SideBar />
           </div>
         </div>
       </Container>
