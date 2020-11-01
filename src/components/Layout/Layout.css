@@ -1,0 +1,20 @@
+.Layout {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.MainArea {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  gap: 30px;
+  width: 100%;
+  min-height: 100%;
+}
+
+.MainArea .SideArea {
+  background-color: aqua;
+  min-height: 100%;
+}
