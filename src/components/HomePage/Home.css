@@ -1,0 +1,47 @@
+.Home {
+}
+
+.WelcomeSection {
+  text-align: center;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.WelcomeSection h1 {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+
+.WelcomeSection p {
+  font-size: 30px;
+}
+
+.IntroSection {
+  position: relative;
+  width: 100%;
+}
+.IntroSection img {
+  width: 100%;
+  height: 500px;
+}
+
+.IntroSection h1 {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-size: 39px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.CropsList {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
