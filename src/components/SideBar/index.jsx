@@ -2,6 +2,7 @@ import React from 'react'
 import './SideBar.css'
 import {cropsList} from "../../assets/data";
 import Logo from "../../assets/c-logo.jpg";
+import FarmImage from "../../assets/land.jpg";
 import { useHistory } from 'react-router-dom';
 
 
@@ -15,6 +16,12 @@ const goToCropsPage = (id)=>{
 
   return (
     <div className="SideBar">
+      <div className="ServicesCard">
+        <h3>Urban Crop Farming</h3>
+        <p>Achive a better farming experience </p>
+        <img src={FarmImage} alt=""/>
+      </div>
+
       <h3>Trending Crops</h3>
       {
         cropsList.map((crop)=>(

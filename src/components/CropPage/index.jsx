@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../Layout'
+import LightCrop from "../../assets/crops_light.jpg";
 import {cropsList} from "../../assets/data";
 import './CropPage.css'
 
@@ -11,7 +12,6 @@ const CropPage = ({location}) => {
     <Layout>
       {
         cropsList.map((crop)=>(
-          
           (cropId === crop.id) && (
             <div className="CropPage">
       <h1 className="CropHeading">
@@ -20,7 +20,21 @@ const CropPage = ({location}) => {
       <p className="CropDescription">
         {crop.description}
     </p>
-
+    
+    <h1>Images</h1>
+    <div className="CropImagesSection">
+      {/* {
+        ImagesList.map((image)=>(
+          
+          <img src={LightCrop} alt={crop.name}/>
+        ))
+      } */}
+      <img src={LightCrop} alt={crop.name}/>
+      <img src={LightCrop} alt={crop.name}/>
+      <img src={LightCrop} alt={crop.name}/>
+      <img src={LightCrop} alt={crop.name}/>
+      <img src={LightCrop} alt={crop.name}/>
+    </div>
       
       <div className="CropInfoSection">
 
