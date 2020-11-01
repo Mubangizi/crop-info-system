@@ -1,13 +1,17 @@
 .Header {
   height: 60px;
   width: 100%;
-  background-color: var(--color-green-dark);
+  background-color: var(--color-green-primary);
 }
 .Header .MuiContainer-root {
   display: flex;
   gap: 90px;
   align-items: center;
   height: 100%;
+}
+
+.Header .MuiContainer-root a {
+  text-decoration: none;
 }
 
 .Header .HeaderLogo {

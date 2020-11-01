@@ -1,16 +1,18 @@
 import { Container } from "@material-ui/core";
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Logo from "../../assets/c-logo.jpg";
 import "./Header.css";
 const Header = () => {
   return (
     <div className="Header">
       <Container>
-        <div className="HeaderLogo">
-          <img src={Logo} alt="" />
-          <p>Urban Crop System</p>
-        </div>
+        <Link to="/">
+          <div className="HeaderLogo">
+            <img src={Logo} alt="" />
+            <p>Urban Crop System</p>
+          </div>
+        </Link>
         <div className="NavItems">
           <NavLink to={{ pathname: `/` }} exact={true}>
             Home

@@ -1,0 +1,7 @@
+.Home {
+}
+
+.CropsList {
+  display: flex;
+  gap: 20px;
+}
