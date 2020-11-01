@@ -1,6 +1,7 @@
 import { Container } from "@material-ui/core";
 import React from "react";
 import Header from "../Header";
+import SideBar from "../SideBar";
 import "./Layout.css";
 
 const Layout = ({ children }) => {
@@ -10,7 +11,9 @@ const Layout = ({ children }) => {
       <Container>
         <div className="MainArea">
           <main>{children}</main>
-          <div className="SideArea"></div>
+          <div className="SideArea">
+            <SideBar/>
+          </div>
         </div>
       </Container>
     </div>

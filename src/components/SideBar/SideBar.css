@@ -1,0 +1,38 @@
+.SideBar {
+  width: 100%;
+  padding: 10px 15px;
+  height: auto;
+  cursor: pointer;
+}
+
+.SmallCropCard {
+  padding: 4px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 10px;
+  align-items: center;
+  background-color: var(--color-gray);
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+.SmallCropCard:hover {
+  transform: scale(1.1);
+}
+
+.SmallCropCard img {
+  object-fit: cover;
+  width: 100%;
+  margin: 0;
+}
+
+.SmallCropCard h4 {
+  color: var(--color-green-dark);
+  margin: 0;
+  margin-bottom: 4px;
+}
+.SmallCropCard p {
+  color: var(--color-brown-dark);
+  margin: 0;
+  font-size: 13px;
+}
