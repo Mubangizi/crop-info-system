@@ -1,0 +1,55 @@
+.Header {
+  height: 60px;
+  width: 100%;
+  background-color: var(--color-green-primary);
+}
+.Header .MuiContainer-root {
+  display: flex;
+  gap: 90px;
+  align-items: center;
+  height: 100%;
+}
+
+.Header .MuiContainer-root a {
+  text-decoration: none;
+}
+
+.active {
+  color: white !important;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.Header .HeaderLogo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  height: 100%;
+  cursor: pointer;
+}
+.HeaderLogo img {
+  width: 40px;
+  height: 40px;
+}
+
+.HeaderLogo p {
+  color: white;
+  font-weight: bold;
+}
+
+.Header .NavItems {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  height: 100%;
+}
+
+.NavItems a {
+  color: white;
+  text-decoration: none;
+}
+
+.NavItems a:hover {
+  color: white;
+  text-decoration: underline;
+}
