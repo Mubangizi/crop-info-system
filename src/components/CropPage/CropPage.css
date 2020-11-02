@@ -17,6 +17,11 @@
   width: 100%;
   height: 200px;
   object-fit: cover;
+  transition: 0.3s;
+}
+
+.CropImagesSection img:hover {
+  transform: scale(1.3);
 }
 
 .CropInfoSection {
