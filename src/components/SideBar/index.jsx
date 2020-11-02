@@ -1,7 +1,6 @@
 import React from "react";
 import "./SideBar.css";
 import { cropsList } from "../../assets/data";
-import Logo from "../../assets/c-logo.jpg";
 import FarmImage from "../../assets/land.jpg";
 import { useHistory } from "react-router-dom";
 
