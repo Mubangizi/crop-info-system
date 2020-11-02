@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4b7afe76-4eaa-4bf7-93cc-f27bc7db1734/deploy-status)](https://app.netlify.com/sites/urbancrop/deploys)
 
 # crop-info-system
 

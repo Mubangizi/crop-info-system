@@ -1,6 +1,5 @@
 import React from "react";
 import CropsCard from "../CropsCard";
-import Logo from "../../assets/c-logo.jpg";
 import HillsImage from "../../assets/hills.jpg";
 import LightCrop from "../../assets/crops_light.jpg";
 import { cropsList } from "../../assets/data";
@@ -36,7 +35,7 @@ const HomePage = () => {
                 {cropsList.map((crop) => (
                   <CropsCard
                     cropId={crop.id}
-                    image={Logo}
+                    image={crop.images[0]["url"]}
                     name={crop.name}
                     description={crop.description}
                   />

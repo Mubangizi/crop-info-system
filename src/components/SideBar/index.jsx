@@ -1,7 +1,6 @@
 import React from "react";
 import "./SideBar.css";
 import { cropsList } from "../../assets/data";
-import Logo from "../../assets/c-logo.jpg";
 import FarmImage from "../../assets/land.jpg";
 import { useHistory } from "react-router-dom";
 
@@ -28,7 +27,7 @@ const SideBar = () => {
             goToCropsPage(crop.id);
           }}
         >
-          <img src={Logo} alt="" />
+          <img src={crop.images[0]["url"]} alt="" />
           <div className="SmallCardInfo">
             <h4>{crop.name}</h4>
             <p>{crop.description}</p>
